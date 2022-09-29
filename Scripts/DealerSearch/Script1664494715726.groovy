@@ -19,17 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.ArfloanURL)
+WebUI.navigateToUrl('http://arfloan.azurewebsites.net/')
 
-WebUI.setText(findTestObject('Page_Home Page/input_User Name_ctl00MainContenttxtUserName'), 'gtraining')
+WebUI.setText(findTestObject('Page_Home Page/input_User Name_ctl00MainContenttxtUserName'), 'straining')
 
-WebUI.setText(findTestObject('Page_Home Page/input_Password_ctl00MainContenttxtPassword'), 'training')
+WebUI.setEncryptedText(findTestObject('Page_Home Page/input_Password_ctl00MainContenttxtPassword'), '2lMKB5e33hiMq1mi4J/iRg==')
 
 WebUI.click(findTestObject('Page_Home Page/a_Log In'))
 
-WebUI.verifyElementText(findTestObject('Page_/DealerHomePage/Page_/a_Calculator_dealerhome'), 'Calculator')
+WebUI.click(findTestObject('Object Repository/DealerSearch/Page_/a_Dealer Management'))
+
+WebUI.setText(findTestObject('Object Repository/DealerSearch/Page_/input_Search_ctl00MainContenttxtSearchCriteria'), 'ger')
+
+WebUI.click(findTestObject('Object Repository/DealerSearch/Page_/input_Show Prospects_ctl00MainContentchkAll'))
+
+WebUI.click(findTestObject('Object Repository/DealerSearch/Page_/a_Search'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/DealerSearch/Page_/a_Germain'), 'Germain')
 
 WebUI.closeBrowser()
-
-
 
