@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log In</name>
+   <name>a_Calculator</name>
    <tag></tag>
-   <elementGuidId>96792b55-9bea-4766-ba74-21997f8a4355</elementGuidId>
+   <elementGuidId>320c02c1-4d3c-4a4b-9f18-dcc719d5ae9f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#ctl00_MainContent_btnLogIn</value>
+         <value>#ctl00_MainContent_DealerNav_lnkCalculator</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ctl00_MainContent_btnLogIn']</value>
+         <value>//a[@id='ctl00_MainContent_DealerNav_lnkCalculator']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>532d94d6-944f-44c8-9264-6de1880250a3</webElementGuid>
+      <webElementGuid>813d226b-fb13-464e-89de-92f7c0a77899</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ctl00_MainContent_btnLogIn</value>
-      <webElementGuid>c0220ada-d6bc-481d-a9ce-cbb6f6ffd620</webElementGuid>
+      <value>ctl00_MainContent_DealerNav_lnkCalculator</value>
+      <webElementGuid>a84074a8-4e34-4ad0-8a8e-ae53415c9ba8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,118 +38,118 @@
       <name>class</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2d0e8497-f90d-48aa-8392-9a61b90a2b53</webElementGuid>
+      <webElementGuid>9f7a1869-f5b1-495a-8665-00a768ecd8b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnLogIn&quot;, &quot;&quot;, true, &quot;grpLogin&quot;, &quot;&quot;, false, true))</value>
-      <webElementGuid>4a89c34a-df2f-4c67-9b02-fb001f3db860</webElementGuid>
+      <value>javascript:__doPostBack('ctl00$MainContent$DealerNav$lnkCalculator','')</value>
+      <webElementGuid>b9ea5c63-6c00-4b05-9753-c3a2d201c4e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log In</value>
-      <webElementGuid>9dbf9ca4-71b8-4610-be82-dea01b69b55f</webElementGuid>
+      <value>Calculator</value>
+      <webElementGuid>4532e671-5f7b-4db3-b7ca-27ee3d424725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_MainContent_btnLogIn&quot;)</value>
-      <webElementGuid>386ada77-cc6d-4022-b3be-ce22c0b9384b</webElementGuid>
+      <value>id(&quot;ctl00_MainContent_DealerNav_lnkCalculator&quot;)</value>
+      <webElementGuid>66d9ef4e-b193-433d-996f-8f6bbad1b60e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='ctl00_MainContent_btnLogIn']</value>
-      <webElementGuid>c64bfc56-0959-41fd-b058-fe08b2e03a68</webElementGuid>
+      <value>//a[@id='ctl00_MainContent_DealerNav_lnkCalculator']</value>
+      <webElementGuid>921d5a77-91c2-4c82-871e-d705b8ed0f90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='aspnetForm']/div[3]/article/div/a</value>
-      <webElementGuid>74202b2b-9f24-4f96-ab1e-d31d5ecd4587</webElementGuid>
+      <value>//form[@id='aspnetForm']/div[3]/article/div[3]/a</value>
+      <webElementGuid>6c15b98f-c28c-4b59-8ed9-4776b6a293e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Log In')]</value>
-      <webElementGuid>8e3ec443-59f7-4395-b2fd-b65667aebe32</webElementGuid>
+      <value>//a[contains(text(),'Calculator')]</value>
+      <webElementGuid>73a5d53e-72f8-4bb2-b444-2fdbc91d8ddd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::a[1]</value>
-      <webElementGuid>1f4ebccc-9770-481b-b9af-878b477d7a54</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[1]</value>
+      <webElementGuid>4957fc21-77ec-47da-83c6-ee902f0697d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name:'])[1]/following::a[1]</value>
-      <webElementGuid>d15155c8-d11a-4859-9f88-56f394172e4d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dealer Home Page'])[1]/following::a[2]</value>
+      <webElementGuid>ee8c0432-3a76-4586-b798-49f235bb3f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to Auto Repair Financial!'])[1]/preceding::a[1]</value>
-      <webElementGuid>6ee27010-ba45-4b10-a4c1-7380365017f1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Blank App'])[1]/preceding::a[1]</value>
+      <webElementGuid>ece7810b-bf63-4b2e-a919-ab2009f67957</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ARF Advantages for Independent Repairer’s:'])[1]/preceding::a[1]</value>
-      <webElementGuid>150c992a-715a-42e6-b85e-3dda69b7b8be</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter App Data'])[1]/preceding::a[2]</value>
+      <webElementGuid>3a40db0d-7db3-4844-86ff-da7779beb703</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log In']/parent::*</value>
-      <webElementGuid>5ff87999-a51c-41bf-b89d-04d2b9dbc85e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Calculator']/parent::*</value>
+      <webElementGuid>5659dd6f-0a07-4277-a8ea-87caa8d2d653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnLogIn&quot;, &quot;&quot;, true, &quot;grpLogin&quot;, &quot;&quot;, false, true))')]</value>
-      <webElementGuid>44719250-3b8a-42ec-ac03-8b9aeac588bb</webElementGuid>
+      <value>//a[contains(@href, &quot;javascript:__doPostBack('ctl00$MainContent$DealerNav$lnkCalculator','')&quot;)]</value>
+      <webElementGuid>374380ae-b800-4a00-83f4-843eb42cb8bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a</value>
-      <webElementGuid>7e251cd3-90c7-4314-8069-1891ab599004</webElementGuid>
+      <value>//div[3]/a</value>
+      <webElementGuid>88c48c7f-e05a-4308-8e10-dd81d2184365</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'ctl00_MainContent_btnLogIn' and @href = 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnLogIn&quot;, &quot;&quot;, true, &quot;grpLogin&quot;, &quot;&quot;, false, true))' and (text() = 'Log In' or . = 'Log In')]</value>
-      <webElementGuid>da6f8181-436a-494e-9757-1b41fe716892</webElementGuid>
+      <value>//a[@id = 'ctl00_MainContent_DealerNav_lnkCalculator' and @href = concat(&quot;javascript:__doPostBack(&quot; , &quot;'&quot; , &quot;ctl00$MainContent$DealerNav$lnkCalculator&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Calculator' or . = 'Calculator')]</value>
+      <webElementGuid>cfb39dc6-4428-458f-9eeb-2943c2b37144</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

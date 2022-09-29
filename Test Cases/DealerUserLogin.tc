@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SuperUserLogin</name>
+   <name>DealerUserLogin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3d0bafdc-0818-46ea-8b43-08b13bc53736</testCaseGuid>
+   <testCaseGuid>e14fd291-6716-4af6-bc94-580d7d625b1f</testCaseGuid>
 </TestCaseEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_ctl00MainContenttxtPassword</name>
+   <name>input__ctl00MainContenttxtLoanAmount</name>
    <tag></tag>
-   <elementGuidId>c10ac32a-52e9-44ee-a90b-8b9a647d3e07</elementGuidId>
+   <elementGuidId>2e502507-b6cd-43b0-b9c5-73fe3fa162d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#ctl00_MainContent_txtPassword</value>
+         <value>#ctl00_MainContent_txtLoanAmount</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ctl00_MainContent_txtPassword']</value>
+         <value>//input[@id='ctl00_MainContent_txtLoanAmount']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>48f7baa5-7e33-4f15-92d6-4a5eafbb3239</webElementGuid>
+      <webElementGuid>2d5e66b0-5801-4d81-ba4d-15c364300689</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ctl00$MainContent$txtPassword</value>
-      <webElementGuid>dc72f4ff-8f05-4af3-b219-82592d2f4c19</webElementGuid>
+      <value>ctl00$MainContent$txtLoanAmount</value>
+      <webElementGuid>815afaf0-6d96-489e-9d51-db085fe83271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>f31e26a4-5820-4ecf-9dc5-ac5b886488c3</webElementGuid>
+      <value>text</value>
+      <webElementGuid>119c9777-ee0b-49da-a1fe-922fc24758de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>12</value>
+      <webElementGuid>ee9e729a-c738-4381-b16d-4786940f6d98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ctl00_MainContent_txtPassword</value>
-      <webElementGuid>0907c257-49a2-49a8-bf9c-df3d85ae9d8b</webElementGuid>
+      <value>ctl00_MainContent_txtLoanAmount</value>
+      <webElementGuid>20247eb3-0493-4fc3-8d16-8952d22de22a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputtextbox</value>
+      <webElementGuid>242cbc9c-5d36-4e2c-9362-de52ddb63d60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ctl00_MainContent_txtPassword&quot;)</value>
-      <webElementGuid>6df95461-5c6b-4e82-8113-8e0670ab1a86</webElementGuid>
+      <value>id(&quot;ctl00_MainContent_txtLoanAmount&quot;)</value>
+      <webElementGuid>f66fb5c8-2240-4900-9197-ada42d4e17f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ctl00_MainContent_txtPassword']</value>
-      <webElementGuid>28967df3-88cc-4997-88e0-9de96d890153</webElementGuid>
+      <value>//input[@id='ctl00_MainContent_txtLoanAmount']</value>
+      <webElementGuid>de37368e-85ce-4999-88ca-ff73850ccaec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='aspnetForm']/div[3]/article/div/input[2]</value>
-      <webElementGuid>f8faec70-982e-42fb-933e-9082d7e20d7f</webElementGuid>
+      <value>//form[@id='aspnetForm']/div[3]/article/div[4]/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>14adfd1a-bb46-4670-82b9-dfcdf9c1ec53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//article/div/input[2]</value>
-      <webElementGuid>9723bef0-29dd-4ab9-8705-bbd526341925</webElementGuid>
+      <value>//td[2]/input</value>
+      <webElementGuid>df465b70-b204-4153-a332-4c437ae788a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'ctl00$MainContent$txtPassword' and @type = 'password' and @id = 'ctl00_MainContent_txtPassword']</value>
-      <webElementGuid>3b50d158-7c3a-4284-9af3-dca26a62c7f1</webElementGuid>
+      <value>//input[@name = 'ctl00$MainContent$txtLoanAmount' and @type = 'text' and @id = 'ctl00_MainContent_txtLoanAmount']</value>
+      <webElementGuid>727270a7-fe6f-472f-9476-9c927019a464</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
