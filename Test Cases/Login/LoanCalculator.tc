@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoanCalculator</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c9a8976-6a3d-4fb8-bc7a-1fb7ee77318c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>1fe811f2-cc20-42bc-b3d2-81f6615421fa</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoanCalculatorInputInternalData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>1fe811f2-cc20-42bc-b3d2-81f6615421fa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>LoanAmount</value>
+      <variableId>f24ed5a7-bb33-4fa2-b502-c88c36532dc9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1fe811f2-cc20-42bc-b3d2-81f6615421fa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>MonthlyPayment</value>
+      <variableId>91791e3f-48bb-4376-aab9-79b595798355</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f24ed5a7-bb33-4fa2-b502-c88c36532dc9</id>
+      <masked>false</masked>
+      <name>LoanAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91791e3f-48bb-4376-aab9-79b595798355</id>
+      <masked>false</masked>
+      <name>MonthlyPayment</name>
+   </variable>
+</TestCaseEntity>
